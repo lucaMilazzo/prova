@@ -69,18 +69,6 @@
   </dependencies>
 
 	<build>
-		
-		<resources>
-			
-			<resource>
-				 <directory>src/main/resources/static/node_modules/.bin</directory>
-            			<excludes>
-                			<exclude>**/rc</exclude>
-            			</excludes>
-				
-			</resource>
-		</resources>
-		
 		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
