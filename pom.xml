@@ -70,8 +70,13 @@
 
 	<build>
 		<resources>
+			
 			<resource>
-				<directory>src/main/resources/static</directory>
+				 <directory>src/main/resources</directory>
+            			<excludes>
+                			<exclude>static/**</exclude>
+            			</excludes>
+				
 			</resource>
 		</resources>
 		<finalName>${project.artifactId}</finalName>
