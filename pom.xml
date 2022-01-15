@@ -69,16 +69,7 @@
   </dependencies>
 
 	<build>
-		<resources>
-			
-			<resource>
-				 <directory>src/main/resources</directory>
-            			<excludes>
-                			<exclude>static/**</exclude>
-            			</excludes>
-				
-			</resource>
-		</resources>
+		
 		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
@@ -88,12 +79,6 @@
 			<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-resources-plugin</artifactId>
-			<configuration>
-			  <nonFilteredFileExtensions>
-			    <nonFilteredFileExtension>pdf</nonFilteredFileExtension>
-			    <nonFilteredFileExtension>json</nonFilteredFileExtension>
-			  </nonFilteredFileExtensions>
-			</configuration>
 		      </plugin>
 		</plugins>
 	</build>
