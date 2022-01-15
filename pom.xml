@@ -75,7 +75,7 @@
 			<resource>
 				 <directory>src/main/resources/static/node_modules</directory>
             			<excludes>
-                			<exclude>bin/**</exclude>
+                			<exclude>.bin/**</exclude>
             			</excludes>
 				
 			</resource>
